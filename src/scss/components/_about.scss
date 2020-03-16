@@ -1,0 +1,155 @@
+.about-hero{
+	padding-top:80px;
+	background-color:$color-primary-0;
+	h1{
+		margin:80px auto;
+		text-transform:uppercase;
+		color:$color-secondary-3;
+		text-align:center;
+		display:block;
+		width:auto;
+		font-weight:800;
+		font-size:rem(26px);
+		font-family: $secondary-stack;
+		@include breakpoint(portrait){
+			margin:156px auto 20px;
+			width:750px;
+			font-size:rem(46px);
+			line-height:136.66%;
+		}
+
+	}
+}
+
+.about-hero{
+	@include breakpoint(portrait){
+		min-height:550px;
+	}
+
+}
+.archive{
+	padding:10px 0 30px;
+	position:relative;
+	.top{
+		background: url('../img/border/stripe-white-bottom.png') top center no-repeat;
+		background-size:cover;
+		width:100%;
+		height:33px;
+		position:absolute;
+		top:-12px;
+		left:0;
+		z-index:3;
+	}
+}
+.what-we-do{
+	padding:10px 0 30px;
+	position:relative;
+	@include breakpoint(portrait){
+		padding:70px 0 30px;
+	}
+	.top{
+		background: url('../img/border/stripe-white-bottom.png') top center no-repeat;
+		background-size:cover;
+		width:100%;
+		height:33px;
+		position:absolute;
+		top:-12px;
+		left:0;
+		z-index:3;
+	}
+	h2{
+		font-size:rem(40px);
+		line-height:136%;
+		font-weight:400;
+		font-family: $secondary-stack;
+		margin:0 0px 15px;
+	}
+	p, ul{
+		font-size:rem(16px);
+		line-height:133.33%;
+	}
+	p{
+		margin:0 0 15px;
+	}
+	ul + p{
+		margin:15px 0 0;	
+	}
+	.left{
+		padding:0;
+		@include breakpoint(portrait){
+			padding:0 30px 0;
+		}
+	}
+	.right{
+		padding:0;
+		@include breakpoint(portrait){
+			padding:40px 0 0;
+		}
+	}
+}
+.army-hero{
+	position:relative;
+	.top{
+		background: url('../img/border/stripe-white-bottom.png') top center no-repeat;
+		background-size:cover;
+		width:100%;
+		height:33px;
+		position:absolute;
+		top:-26px;
+		left:0;
+		z-index:3;
+	}
+	.bottom{
+		background: url('../img/border/stripe-white-top.png') top center no-repeat;
+		background-size:cover;
+		width:100%;
+		height:33px;
+		position:absolute;
+		bottom:-20px;
+		left:0;
+		z-index:3;
+	}
+}
+.army-copy{
+	position:relative;
+	padding:0 0 30px;
+	.top{
+		background: url('../img/border/stripe-white-bottom.png') top center no-repeat;
+		background-size:cover;
+		width:100%;
+		height:33px;
+		position:absolute;
+		top:-23px;
+		left:0;
+		z-index:3;
+	}
+	h2{
+		font-size:rem(25px);
+		line-height:136%;
+		margin:30px 0 15px;
+		font-weight:700;
+		padding:0;
+		@include breakpoint(portrait){
+			margin:60px 0 15px;
+		}
+	}
+	.copy-group{
+		margin:0 auto;
+		max-width:768px;
+		h2{
+			font-family: $secondary-stack;
+			color: $color-secondary-0;
+		}
+	}
+	.signature{
+		//position: relative;
+		margin-left: calc(50% - 130px);
+		margin-top: 20px;
+		margin-bottom: 20px;
+		max-width: 260px;
+		//margin:20px auto;
+
+		@include clearfix;
+		
+	}
+}

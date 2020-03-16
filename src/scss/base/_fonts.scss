@@ -1,0 +1,12 @@
+$primary-stack			:'Open Sans', sans-serif;
+$secondary-stack		:'Permanent Marker',sans-serif; 
+$tertiary-stack			:"Lucida Bright", Georgia, serif;
+$base-font-size			:16px;
+
+.marker{
+	font-family:$secondary-stack;	
+}
+
+p{
+	font-family: $primary-stack;
+}

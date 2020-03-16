@@ -1,0 +1,177 @@
+article{
+	padding-top:80px;
+}
+.article-head{
+    margin-bottom: 20px;
+    padding-top: 85px;
+    p{
+	    color: $color-primary-4;
+	    font-size: rem(16px);
+	    line-height: rem(24px);
+        padding-bottom: 30px;
+		&.category{
+			padding:0;
+		}
+
+    }
+    h1 {
+        border-bottom: 1px solid $color-primary-0;
+        padding-bottom: 7px;
+        margin:-10px 0 13px;
+        a {
+            font-size: rem(25px);
+            line-height: rem(34px);
+            color:$color-primary-0;
+            font-weight: 600;
+            &:hover{
+                color:$color-secondary-0;
+            }
+        }
+    }
+    .author-container{
+		padding-bottom:30px;
+		display:block;
+        span{
+            display: block;
+        }
+        .author a{
+            color: $color-primary-4;
+            font-size:16px;
+            line-height: 24px;
+            font-weight: 600;
+            &:hover{
+                color:$color-secondary-0;
+            }
+        }
+        .date{
+            color: $color-primary-4;
+            font-size:12px;
+            line-height: 17px;
+            font-weight: 800;
+        }   
+    }
+	.subtitle{
+        padding-bottom: 7px;
+        margin-top: 13px;
+		
+	}
+}
+.hero-image{
+	margin-bottom:25px;
+    .content{
+        a{
+            display: block;
+            margin:25px 0 30px;
+        }
+    }
+}
+.article-quote {
+	margin:0 0 30px;
+}
+.article-body{
+    color: $color-primary-4;
+    font-size: rem(16px);
+    line-height: rem(24px);
+    p{
+        padding-bottom: 30px;
+    }
+    ul,ol{
+        padding-bottom: 30px;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin-bottom:10px;
+    }
+    h1{
+        font-family: sans-serif;
+        font-size: rem(25px);
+        line-height: rem(34px);
+        font-weight: 300;
+    }
+    h2{
+        font-family: sans-serif;
+        color: $color-secondary-0;
+        font-size: rem(22px);
+        line-height: rem(30px);
+        font-weight: 300;
+    }
+    h3{
+        font-family: sans-serif;
+        color: $color-secondary-1;
+        font-size: rem(22px);
+        line-height: rem(30px);
+        font-weight: 300;
+    }
+    h4{
+        font-family: sans-serif;
+        color: $color-primary-1;
+        font-size: rem(20px);
+        line-height: rem(26px);
+    }
+    h5{
+        font-family: sans-serif;
+        color: $color-primary-1;
+        font-size: rem(18px);
+        line-height: rem(22px);
+    }
+    h6{
+        font-family: sans-serif;
+        color: $color-secondary-0;
+        font-size: rem(18px);
+        line-height: rem(22px);
+    }
+    blockquote{
+        background: url('../img/border/tan-top-swipe.png') transparent top left no-repeat;
+        background-size:20% 7%;
+        font-family:'Open Sans', sans-serif;
+        color: $color-primary-1;
+        font-size: rem(28px);
+        line-height: rem(40px);
+        font-weight: normal;
+        margin:0 35px;
+        padding: 25px 0;
+        p{
+            font-family:'Open Sans', sans-serif;
+            color: $color-primary-1;
+            font-size: rem(28px);
+            line-height: rem(40px);
+            font-weight: normal;
+        }
+    }
+}
+//consider replacing this logic with flexbox, not happy with the way this condenses down.
+.article-photo-gallery{
+	margin:0 0 30px;
+    .gallery-title{
+        display: block;
+        color: $color-primary-4;
+        font-weight: 800;
+        margin:9px 0;
+		padding: 5px;
+    }
+	.gallery-image{
+		width: 50%;
+		float: left;
+		padding: 5px;
+		max-height:200px;
+		overflow:hidden;
+	}
+    a.popup{
+      cursor: pointer;
+      cursor: -webkit-zoom-in;
+      cursor: -moz-zoom-in;
+      cursor: zoom-in;
+    }
+	
+}
+
+.post-edit-link{
+    display: inline-block;
+    padding:10px;
+    margin: 20px 0;
+    border:1px solid $color-secondary-0;
+    border-radius: 5px;
+    &:hover{
+        background: $color-secondary-0;
+        color: $color-primary-5;
+    }
+}
